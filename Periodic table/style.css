@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+h1{
+    font-size: 60;
+    color: blue;   
+}
+/* 
+.table{
+    
+    justify-content: center;
+    align-items: center;
+    
+} */
+
+body{
+    padding-left: 100px;
+    min-height: 100vh;
+    background-color: aquamarine;
+}
+
+button{
+    margin: 0.50px;
+    padding: 3px;
+    border: none;
+    outline: none;
+    box-shadow: none;
+
+}
+
+.blank{
+   background: transparent;
+}
+
+.btn{
+    width: 55px;
+    height: 45px;
+    font-size: 18px;    
+    display: flex;
+    justify-content: center;
+    align-content: center;  
+}
+
+.green{
+    background-color: rgb(47, 199, 115);
+    color: white;
+    font-weight: 600;
+}
+
+.grey{
+    background-color: gray;
+    color: white;
+    font-weight: 600;
+}
+
+.black{
+    background-color: black;
+    color: white;
+    font-weight: 600;
+}
+
+.yellow{
+    background-color: rgb(228, 228, 68);
+    color: white;
+    font-weight: 600;
+}
+
+.pink{
+    background-color: rgb(207, 91, 155);
+    color: white;
+    font-weight: 600;
+}
+
+.red{
+    background-color: red;
+    color: white;
+    font-weight: 600;
+}
+
+.li-green{
+    background-color: rgb(22, 144, 34);
+    color: white;
+    font-weight: 600;
+}
+
+.blue{
+    background-color: rgb(80, 151, 227);
+    color: white;
+    font-weight: 600;
+}
+
+.orange{
+    background-color: orange;
+    color: white;
+    font-weight: 600;
+}
+
+.purple{
+    background-color: purple;
+    color: white;
+    font-weight: 600;
+}
+
+div > div{
+    display: flex;
+    flex-wrap: nowrap;
+}

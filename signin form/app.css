@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#div-class{  
+    width: 100%;
+    height: 100vh;
+    background-image: url(pexels-minan1398-1369280.jpg);
+    background-position: center;
+    background-size: contain;  
+    color: rgb(25, 27, 167);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+} 
+
+#main-box{
+    height: 100%;
+    width: 400px;
+    padding: 20px;
+    font-size: 20px;    
+    align-items: center;
+}
+
+form .input{
+    width: 350px;
+    height: 29px;
+    border-color: blue;   
+}
+
+#gender{
+    width: 350px;
+    height: 29px;
+    border: 2px solid blue;
+}
+
+#country{
+    width: 350px;
+    height: 29px;
+    border: 2px solid rgb(64, 64, 242);
+}
+#comments{
+    border: 2px solid rgb(64, 64, 242);
+    width: 350px;
+}
+
+h3{
+    font-size: 30px;
+    padding: 10px;
+}
+
+#reset{
+    background: transparent;
+    height: 25px;
+    border-color: blue;
+    font-size: 20px;
+    color:rgb(31, 31, 148)
+}
+
+#submit{
+    background: transparent;
+    height: 25px;
+    border-color: rgb(47, 47, 196);
+    font-size: 20px;
+    color:rgb(31, 31, 148)
+}
+
+#photo{
+    border: 2px solid blue;
+    width: 350px;
+}
+

@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#main{
+    height: 100vh;
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &:active{
+        background-color: rgb(123, 189, 123);
+        ;
+    }
+}
+table{
+    height: 500px;
+    width: 400px;
+    padding: 5px;
+    align-items: left;
+    background-color: transparent;
+    border: 4px double black;
+    &:hover{
+        background-color: rgb(190, 182, 206);
+        &:active{
+            background-color: brown;
+        }
+    }
+
+}
+
+th{
+    height: 10px;
+    width: 30%px;
+    border: 3px double blue;
+
+    &:hover{
+        background-color: aquamarine;
+        &:active{
+            background-color: rgb(56, 191, 35);
+            &:any-link{
+                background-image: url(girl-removebg-preview.png);
+            }
+        }
+    }
+}
+
+button{
+    width: 100px;
+    height: 30px;
+
+    animation: a, 1s, infinite, running;
+
+}
+
+@keyframes a{
+    from{transform: scale(1);}
+    to{transform: scale(6);}
+}
+
+
+
+
+
+
+

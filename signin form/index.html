@@ -1,0 +1,116 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignIn Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="div-class">
+        <div id="main-box">
+            <form>
+                <h1><u><b>💕 Registeration Form 💕</b></u></h1>
+
+                <div class="div-top">
+                    <div>
+                        <label for="text">UserName:<br></label>
+                        <input type="text" id="text" class="input" placeholder="Enter Your Name" required>
+                        <br>
+                    </div>
+                
+                    <div>
+                        <label for="email">Email:<br></label>
+                        <input type="email" id="email" class="input" placeholder="Enter Your email" required>
+                        <br>
+                    </div>
+                </div>
+
+                <div class="div-top">
+                    <div>
+                        <label for="password">Password:<br></label>
+                        <input type="password" id="password" min="4" class="input" placeholder="Enter Your Password"
+                            required>
+                        <br>
+                    </div>
+                
+                    <div>
+                        <label for="phone">Phone:<br></label>
+                        <input type="tel" id="phone" class="input" pattern="[0-5]{4}-[0-9]{7}"
+                            placeholder="formate: 0341-1234567">
+                        <br>
+                    </div>
+                </div>
+
+                <div class="div-top">
+                    <div>
+                        <label for="calender">Date:<br></label>
+                        <input type="date" id="calender" class="input" required>
+                        <br>
+                    </div>
+                
+                    <div>
+                        <label for="country">Country:<br></label>
+                        <select id="Country" class="input">
+                            <option value="pakistan">Pakistan</option>
+                            <option value="india">India</option>
+                            <option value="iran">Iran</option>
+                            <option value="turkey">Turkey</option>
+                            <option value="dubai">Dubai</option>
+                        </select>
+                        <br>
+                    </div>
+                </div>
+
+                <div class="div-top">
+                    <div>
+                        <label for="age">Age:<br></label>
+                        <input type="number" id="age" min="1" max="65" class="input" placeholder="age" required>
+                        <br>
+                        <br>
+                    </div>
+                
+                    <div>
+                        <label for="gender">Gender:<br></label>
+                        <select id="gender" class="input">
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                            <br>
+                            <br>
+                        </select>
+                    </div>
+                </div>
+
+                <div>
+                    <lable>Your Photo: <br></lable>
+                    <input type="file" id="">
+                    <br>
+                    <br>                    
+                </div>
+
+                <div>                    
+                    <lable for="comments">comments:<br></lable>
+                    <textarea name="" id="" rows="4" cols="50" placeholder="Enter Your comment here"></textarea>
+                    <br>
+                    <br>
+                </div>
+
+                
+               
+                <div id="div-top"></div>
+                <div>
+                    <input type="reset" class="input">
+                         &nbsp; &nbsp;                              
+                    <input type="submit" class="input">
+                </div>                
+            </div>            
+                
+         </form>   
+            
+        </div>
+    </div>
+</body>
+
+</html>
+
